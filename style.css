@@ -1,80 +1,75 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9f9f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krisha Kedia | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm <span>Krisha Kedia</span></h1>
+      <p>A high schooler building the future with AI, IoT & Code</p>
+    </div>
+  </header>
 
-header {
-  background: linear-gradient(to right, #6a11cb, #2575fc);
-  color: white;
-  text-align: center;
-  padding: 3rem 1rem;
-}
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a high school student passionate about AI, IoT, and Physics. I build apps and projects using Python, Java, and microcontrollers like the ESP32. Currently learning Spring Boot and React.js to make the web a better place!</p>
+    </div>
+  </section>
 
-header h1 span {
-  color: #ffeb3b;
-}
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Pomodoro Timer</h3>
+          <p>A productivity timer to manage focus & breaks</p>
+        </div>
+        <div class="card">
+          <h3>Password Manager</h3>
+          <p>Securely generate & store passwords</p>
+        </div>
+        <div class="card">
+          <h3>Unit Converter</h3>
+          <p>Convert units for length, weight, and volume</p>
+        </div>
+        <div class="card">
+          <h3>Blackjack Game</h3>
+          <p>Classic casino-style card game using Python</p>
+        </div>
+        <!-- Add more project cards here -->
+      </div>
+    </div>
+  </section>
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 2rem;
-}
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>ESP32 & IoT</li>
+        <li>Spring Boot</li>
+        <li>React.js</li>
+        <li>HTML/CSS</li>
+      </ul>
+    </div>
+  </section>
 
-section {
-  padding: 2rem 0;
-}
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:krishakedia30@gmail.com">krishakedia30@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Krisha-codes" target="_blank">Krisha-codes</a></p>
+    </div>
+  </section>
 
-h2 {
-  text-align: center;
-  color: #444;
-  margin-bottom: 1rem;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-}
-
-.card {
-  background: white;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.skills-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 0;
-}
-
-.skills-list li {
-  background: #2575fc;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-}
-
-#contact a {
-  color: #2575fc;
-  text-decoration: none;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #eee;
-  color: #666;
-  font-size: 0.9rem;
-}
+  <footer>
+    <p>© 2025 Krisha Kedia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
