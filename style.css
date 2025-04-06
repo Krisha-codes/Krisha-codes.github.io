@@ -1,13 +1,80 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fefefe;
-  color: #333;
   margin: 0;
-  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
 }
 
 header {
-  background-color: #e0f7fa;
-  padding: 20px;
-  border-radius: 8px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 span {
+  color: #ffeb3b;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #2575fc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+#contact a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  color: #666;
+  font-size: 0.9rem;
 }
